@@ -55,14 +55,27 @@ If you want to learn more about building native executables, please consult <htt
 
 ## Related Guides
 
-- Container Image Podman ([guide](https://quarkus.io/guides/container-image)): Build container images of your application using Podman
-- Kubernetes ([guide](https://quarkus.io/guides/kubernetes)): Generate Kubernetes resources from annotations
 - Bucket4j ([guide](https://quarkiverse.github.io/quarkiverse-docs/quarkus-bucket4j/dev/index.html)): Control the request rate sent to your application
+- REST Client ([guide](https://quarkus.io/guides/rest-client)): Call REST services
+- Container Image Podman ([guide](https://quarkus.io/guides/container-image)): Build container images of your application using Podman
 - Kotlin ([guide](https://quarkus.io/guides/kotlin)): Write your services in Kotlin
 - Kubernetes Config ([guide](https://quarkus.io/guides/kubernetes-config)): Read runtime configuration from Kubernetes ConfigMaps and Secrets
-- LangChain4j Ollama ([guide](https://docs.quarkiverse.io/quarkus-langchain4j/dev/index.html)): Provides the basic integration of Ollama with LangChain4j
-- LangChain4j Hugging Face ([guide](https://docs.quarkiverse.io/quarkus-langchain4j/dev/index.html)): Provides integration of Quarkus LangChain4j with the Hugging Face API
+- Kubernetes ([guide](https://quarkus.io/guides/kubernetes)): Generate Kubernetes resources from annotations
 - LangChain4j Core ([guide](https://docs.quarkiverse.io/quarkus-langchain4j/dev/index.html)): Provides the basic integration with LangChain4j
-- LangChain4j Tavily Web Search Engine ([guide](https://docs.quarkiverse.io/quarkus-langchain4j/dev/index.html)): Provides the Tavily Web search engine for LangChain4j
 - LangChain4j Agentic ([guide](https://docs.quarkiverse.io/quarkus-langchain4j/dev/index.html)): Provides integration with LangChain4j's Agentic module
+- LangChain4j Ollama ([guide](https://docs.quarkiverse.io/quarkus-langchain4j/dev/index.html)): Provides the basic integration of Ollama with LangChain4j
 - MCP Server - HTTP/SSE ([guide](https://docs.quarkiverse.io/quarkus-mcp-server/dev/index.html)): This extension enables developers to implement the MCP server features easily.
+
+## Provided Code
+
+### REST Client
+
+Invoke different services through REST with JSON
+
+[Related guide section...](https://quarkus.io/guides/rest-client)
+
+### REST
+
+Easily start your REST Web Services
+
+[Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
